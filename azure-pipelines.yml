@@ -28,4 +28,4 @@ steps:
 - task: AdvancedInstaller@2
   inputs:
     aipPath: 'AdvanceInstaller-Setup/AdvanceInstaller-Setup.aip'
-    aipBuild: 'Default'
+    aipBuild: 'Release'
