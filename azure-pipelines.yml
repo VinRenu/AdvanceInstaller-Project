@@ -27,5 +27,5 @@ steps:
 
 - task: AdvancedInstaller@2
   inputs:
-    aipPath: '*/*.aip'
+    aipPath: 'AdvanceInstaller-Setup.aip'
     aipBuild: 'Default'
