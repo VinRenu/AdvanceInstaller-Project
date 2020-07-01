@@ -29,3 +29,9 @@ steps:
   inputs:
     aipPath: 'AdvanceInstaller-Setup/AdvanceInstaller-Setup.aip'
     aipBuild: 'DefaultBuild'
+
+- task: PublishPipelineArtifact@1
+  inputs:
+    targetPath: '$(Pipeline.Workspace)'
+    artifact: 'AdvanceInstaller'
+    publishLocation: 'pipeline'
